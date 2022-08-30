@@ -1,3 +1,8 @@
 .idea
 node_modules
 dist
+
+creation.js
+operators.js
+problem.js
+subjects.js
