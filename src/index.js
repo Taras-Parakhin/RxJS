@@ -33,7 +33,7 @@ const stream$ = fromEvent(search, 'input')
 
 stream$.subscribe(user => {
   const html = `
-      <div class="card">
+    <div class="card">
       <div class="card-image">
         <img src="${user.avatar_url}"  alt="${user.login}"/>
         <span class="card-title">${user.login}</span>
