@@ -221,11 +221,11 @@ const myInput = document.querySelector('input');
 
 // // const o = range(0, 100).pipe(map(n => n * 2));
 // // const o = range(0, 100).pipe(mapTo('Hi!'));
-// const clicks = fromEvent(document.body , 'click');
+// const clicks = fromEvent(document.body, 'click');
 // // flatMap === mergeMap
 // // const o = clicks.pipe(flatMap(() => interval(1000)));
-// // const o = clicks.pipe(switchMap(() => interval(1000)))
-// // const o = clicks.pipe(exhaustMap(() => interval(1000)));
+// // const o = clicks.pipe(switchMap(() => interval(1000)));
+// // const o = clicks.pipe(exhaustMap(() => interval(1000).pipe(take(5))));
 // const o = clicks.pipe(concatMap(() => interval(1000)));
 //
 // o.subscribe({

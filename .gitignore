@@ -2,3 +2,11 @@ node_modules
 .vscode
 dist/index.js
 coverage
+
+operators.js
+creation.js
+index.html
+index.js
+problem.js
+subjects.js
+webpack.config.js
